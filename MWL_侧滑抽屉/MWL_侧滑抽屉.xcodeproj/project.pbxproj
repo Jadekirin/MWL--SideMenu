@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10F8F3B1D92523300D9F6DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F3A1D92523300D9F6DA /* main.m */; };
+		D10F8F3E1D92523300D9F6DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F3D1D92523300D9F6DA /* AppDelegate.m */; };
+		D10F8F401D92523300D9F6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10F8F3F1D92523300D9F6DA /* Assets.xcassets */; };
+		D10F8F431D92523300D9F6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10F8F411D92523300D9F6DA /* LaunchScreen.storyboard */; };
+		D10F8F4E1D92523300D9F6DA /* MWL_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F4D1D92523300D9F6DA /* MWL_____Tests.m */; };
+		D10F8F591D92523300D9F6DA /* MWL_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F581D92523300D9F6DA /* MWL_____UITests.m */; };
+		D10F8F6D1D9252D800D9F6DA /* MWL_MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F6C1D9252D800D9F6DA /* MWL_MainController.m */; };
+		D10F8F701D9252F200D9F6DA /* MWL_NewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F6F1D9252F200D9F6DA /* MWL_NewsController.m */; };
+		D10F8F731D92532300D9F6DA /* MWL_ContacterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F721D92532300D9F6DA /* MWL_ContacterController.m */; };
+		D10F8F761D92533D00D9F6DA /* MWL_DynamicController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F751D92533D00D9F6DA /* MWL_DynamicController.m */; };
+		D10F8F7F1D925CA900D9F6DA /* UIView+MWLframe.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F7E1D925CA900D9F6DA /* UIView+MWLframe.m */; };
+		D10F8F821D925E8A00D9F6DA /* MWL_SideTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F811D925E8A00D9F6DA /* MWL_SideTableView.m */; };
+		D10F8F851D925E9E00D9F6DA /* MWL_MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F841D925E9E00D9F6DA /* MWL_MainView.m */; };
+		D10F8F881D92609C00D9F6DA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F871D92609C00D9F6DA /* TestViewController.m */; };
+		D10F8F8B1D9261C600D9F6DA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F8F8A1D9261C600D9F6DA /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D10F8F4A1D92523300D9F6DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10F8F2E1D92523300D9F6DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10F8F351D92523300D9F6DA;
+			remoteInfo = "MWL_侧滑抽屉";
+		};
+		D10F8F551D92523300D9F6DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10F8F2E1D92523300D9F6DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10F8F351D92523300D9F6DA;
+			remoteInfo = "MWL_侧滑抽屉";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D10F8F361D92523300D9F6DA /* MWL_侧滑抽屉.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MWL_侧滑抽屉.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10F8F3A1D92523300D9F6DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D10F8F3C1D92523300D9F6DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D10F8F3D1D92523300D9F6DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D10F8F3F1D92523300D9F6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10F8F421D92523300D9F6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D10F8F441D92523300D9F6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10F8F491D92523300D9F6DA /* MWL_侧滑抽屉Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MWL_侧滑抽屉Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10F8F4D1D92523300D9F6DA /* MWL_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MWL_____Tests.m"; sourceTree = "<group>"; };
+		D10F8F4F1D92523300D9F6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10F8F541D92523300D9F6DA /* MWL_侧滑抽屉UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MWL_侧滑抽屉UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10F8F581D92523300D9F6DA /* MWL_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MWL_____UITests.m"; sourceTree = "<group>"; };
+		D10F8F5A1D92523300D9F6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10F8F6B1D9252D800D9F6DA /* MWL_MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWL_MainController.h; sourceTree = "<group>"; };
+		D10F8F6C1D9252D800D9F6DA /* MWL_MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWL_MainController.m; sourceTree = "<group>"; };
+		D10F8F6E1D9252F200D9F6DA /* MWL_NewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWL_NewsController.h; sourceTree = "<group>"; };
+		D10F8F6F1D9252F200D9F6DA /* MWL_NewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWL_NewsController.m; sourceTree = "<group>"; };
+		D10F8F711D92532300D9F6DA /* MWL_ContacterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWL_ContacterController.h; sourceTree = "<group>"; };
+		D10F8F721D92532300D9F6DA /* MWL_ContacterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWL_ContacterController.m; sourceTree = "<group>"; };
+		D10F8F741D92533D00D9F6DA /* MWL_DynamicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWL_DynamicController.h; sourceTree = "<group>"; };
+		D10F8F751D92533D00D9F6DA /* MWL_DynamicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWL_DynamicController.m; sourceTree = "<group>"; };
+		D10F8F7D1D925CA900D9F6DA /* UIView+MWLframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MWLframe.h"; sourceTree = "<group>"; };
+		D10F8F7E1D925CA900D9F6DA /* UIView+MWLframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MWLframe.m"; sourceTree = "<group>"; };
+		D10F8F801D925E8A00D9F6DA /* MWL_SideTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWL_SideTableView.h; sourceTree = "<group>"; };
+		D10F8F811D925E8A00D9F6DA /* MWL_SideTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWL_SideTableView.m; sourceTree = "<group>"; };
+		D10F8F831D925E9E00D9F6DA /* MWL_MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWL_MainView.h; sourceTree = "<group>"; };
+		D10F8F841D925E9E00D9F6DA /* MWL_MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWL_MainView.m; sourceTree = "<group>"; };
+		D10F8F861D92609C00D9F6DA /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D10F8F871D92609C00D9F6DA /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D10F8F891D9261C600D9F6DA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
+		D10F8F8A1D9261C600D9F6DA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10F8F331D92523300D9F6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10F8F461D92523300D9F6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10F8F511D92523300D9F6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10F8F2D1D92523300D9F6DA = {
+			isa = PBXGroup;
+			children = (
+				D10F8F381D92523300D9F6DA /* MWL_侧滑抽屉 */,
+				D10F8F4C1D92523300D9F6DA /* MWL_侧滑抽屉Tests */,
+				D10F8F571D92523300D9F6DA /* MWL_侧滑抽屉UITests */,
+				D10F8F371D92523300D9F6DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10F8F371D92523300D9F6DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F361D92523300D9F6DA /* MWL_侧滑抽屉.app */,
+				D10F8F491D92523300D9F6DA /* MWL_侧滑抽屉Tests.xctest */,
+				D10F8F541D92523300D9F6DA /* MWL_侧滑抽屉UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10F8F381D92523300D9F6DA /* MWL_侧滑抽屉 */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F661D92529100D9F6DA /* 动态 */,
+				D10F8F671D92529100D9F6DA /* 联系人 */,
+				D10F8F681D92529100D9F6DA /* 消息 */,
+				D10F8F691D92529100D9F6DA /* 主控制器 */,
+				D10F8F6A1D92529100D9F6DA /* 左侧界面 */,
+				D10F8F3C1D92523300D9F6DA /* AppDelegate.h */,
+				D10F8F3D1D92523300D9F6DA /* AppDelegate.m */,
+				D10F8F861D92609C00D9F6DA /* TestViewController.h */,
+				D10F8F871D92609C00D9F6DA /* TestViewController.m */,
+				D10F8F7D1D925CA900D9F6DA /* UIView+MWLframe.h */,
+				D10F8F7E1D925CA900D9F6DA /* UIView+MWLframe.m */,
+				D10F8F3F1D92523300D9F6DA /* Assets.xcassets */,
+				D10F8F411D92523300D9F6DA /* LaunchScreen.storyboard */,
+				D10F8F441D92523300D9F6DA /* Info.plist */,
+				D10F8F391D92523300D9F6DA /* Supporting Files */,
+			);
+			path = "MWL_侧滑抽屉";
+			sourceTree = "<group>";
+		};
+		D10F8F391D92523300D9F6DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F3A1D92523300D9F6DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D10F8F4C1D92523300D9F6DA /* MWL_侧滑抽屉Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F4D1D92523300D9F6DA /* MWL_____Tests.m */,
+				D10F8F4F1D92523300D9F6DA /* Info.plist */,
+			);
+			path = "MWL_侧滑抽屉Tests";
+			sourceTree = "<group>";
+		};
+		D10F8F571D92523300D9F6DA /* MWL_侧滑抽屉UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F581D92523300D9F6DA /* MWL_____UITests.m */,
+				D10F8F5A1D92523300D9F6DA /* Info.plist */,
+			);
+			path = "MWL_侧滑抽屉UITests";
+			sourceTree = "<group>";
+		};
+		D10F8F661D92529100D9F6DA /* 动态 */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F741D92533D00D9F6DA /* MWL_DynamicController.h */,
+				D10F8F751D92533D00D9F6DA /* MWL_DynamicController.m */,
+			);
+			path = "动态";
+			sourceTree = "<group>";
+		};
+		D10F8F671D92529100D9F6DA /* 联系人 */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F711D92532300D9F6DA /* MWL_ContacterController.h */,
+				D10F8F721D92532300D9F6DA /* MWL_ContacterController.m */,
+			);
+			path = "联系人";
+			sourceTree = "<group>";
+		};
+		D10F8F681D92529100D9F6DA /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F6E1D9252F200D9F6DA /* MWL_NewsController.h */,
+				D10F8F6F1D9252F200D9F6DA /* MWL_NewsController.m */,
+			);
+			path = "消息";
+			sourceTree = "<group>";
+		};
+		D10F8F691D92529100D9F6DA /* 主控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F891D9261C600D9F6DA /* BaseViewController.h */,
+				D10F8F8A1D9261C600D9F6DA /* BaseViewController.m */,
+				D10F8F6B1D9252D800D9F6DA /* MWL_MainController.h */,
+				D10F8F6C1D9252D800D9F6DA /* MWL_MainController.m */,
+			);
+			path = "主控制器";
+			sourceTree = "<group>";
+		};
+		D10F8F6A1D92529100D9F6DA /* 左侧界面 */ = {
+			isa = PBXGroup;
+			children = (
+				D10F8F831D925E9E00D9F6DA /* MWL_MainView.h */,
+				D10F8F841D925E9E00D9F6DA /* MWL_MainView.m */,
+				D10F8F801D925E8A00D9F6DA /* MWL_SideTableView.h */,
+				D10F8F811D925E8A00D9F6DA /* MWL_SideTableView.m */,
+			);
+			path = "左侧界面";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10F8F351D92523300D9F6DA /* MWL_侧滑抽屉 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10F8F5D1D92523300D9F6DA /* Build configuration list for PBXNativeTarget "MWL_侧滑抽屉" */;
+			buildPhases = (
+				D10F8F321D92523300D9F6DA /* Sources */,
+				D10F8F331D92523300D9F6DA /* Frameworks */,
+				D10F8F341D92523300D9F6DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MWL_侧滑抽屉";
+			productName = "MWL_侧滑抽屉";
+			productReference = D10F8F361D92523300D9F6DA /* MWL_侧滑抽屉.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D10F8F481D92523300D9F6DA /* MWL_侧滑抽屉Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10F8F601D92523300D9F6DA /* Build configuration list for PBXNativeTarget "MWL_侧滑抽屉Tests" */;
+			buildPhases = (
+				D10F8F451D92523300D9F6DA /* Sources */,
+				D10F8F461D92523300D9F6DA /* Frameworks */,
+				D10F8F471D92523300D9F6DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10F8F4B1D92523300D9F6DA /* PBXTargetDependency */,
+			);
+			name = "MWL_侧滑抽屉Tests";
+			productName = "MWL_侧滑抽屉Tests";
+			productReference = D10F8F491D92523300D9F6DA /* MWL_侧滑抽屉Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D10F8F531D92523300D9F6DA /* MWL_侧滑抽屉UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10F8F631D92523300D9F6DA /* Build configuration list for PBXNativeTarget "MWL_侧滑抽屉UITests" */;
+			buildPhases = (
+				D10F8F501D92523300D9F6DA /* Sources */,
+				D10F8F511D92523300D9F6DA /* Frameworks */,
+				D10F8F521D92523300D9F6DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10F8F561D92523300D9F6DA /* PBXTargetDependency */,
+			);
+			name = "MWL_侧滑抽屉UITests";
+			productName = "MWL_侧滑抽屉UITests";
+			productReference = D10F8F541D92523300D9F6DA /* MWL_侧滑抽屉UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10F8F2E1D92523300D9F6DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = maweilong;
+				TargetAttributes = {
+					D10F8F351D92523300D9F6DA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D10F8F481D92523300D9F6DA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D10F8F351D92523300D9F6DA;
+					};
+					D10F8F531D92523300D9F6DA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D10F8F351D92523300D9F6DA;
+					};
+				};
+			};
+			buildConfigurationList = D10F8F311D92523300D9F6DA /* Build configuration list for PBXProject "MWL_侧滑抽屉" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10F8F2D1D92523300D9F6DA;
+			productRefGroup = D10F8F371D92523300D9F6DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10F8F351D92523300D9F6DA /* MWL_侧滑抽屉 */,
+				D10F8F481D92523300D9F6DA /* MWL_侧滑抽屉Tests */,
+				D10F8F531D92523300D9F6DA /* MWL_侧滑抽屉UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10F8F341D92523300D9F6DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10F8F401D92523300D9F6DA /* Assets.xcassets in Resources */,
+				D10F8F431D92523300D9F6DA /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10F8F471D92523300D9F6DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10F8F521D92523300D9F6DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10F8F321D92523300D9F6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10F8F3E1D92523300D9F6DA /* AppDelegate.m in Sources */,
+				D10F8F6D1D9252D800D9F6DA /* MWL_MainController.m in Sources */,
+				D10F8F8B1D9261C600D9F6DA /* BaseViewController.m in Sources */,
+				D10F8F3B1D92523300D9F6DA /* main.m in Sources */,
+				D10F8F731D92532300D9F6DA /* MWL_ContacterController.m in Sources */,
+				D10F8F881D92609C00D9F6DA /* TestViewController.m in Sources */,
+				D10F8F7F1D925CA900D9F6DA /* UIView+MWLframe.m in Sources */,
+				D10F8F821D925E8A00D9F6DA /* MWL_SideTableView.m in Sources */,
+				D10F8F851D925E9E00D9F6DA /* MWL_MainView.m in Sources */,
+				D10F8F761D92533D00D9F6DA /* MWL_DynamicController.m in Sources */,
+				D10F8F701D9252F200D9F6DA /* MWL_NewsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10F8F451D92523300D9F6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10F8F4E1D92523300D9F6DA /* MWL_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10F8F501D92523300D9F6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10F8F591D92523300D9F6DA /* MWL_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D10F8F4B1D92523300D9F6DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10F8F351D92523300D9F6DA /* MWL_侧滑抽屉 */;
+			targetProxy = D10F8F4A1D92523300D9F6DA /* PBXContainerItemProxy */;
+		};
+		D10F8F561D92523300D9F6DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10F8F351D92523300D9F6DA /* MWL_侧滑抽屉 */;
+			targetProxy = D10F8F551D92523300D9F6DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D10F8F411D92523300D9F6DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10F8F421D92523300D9F6DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D10F8F5B1D92523300D9F6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D10F8F5C1D92523300D9F6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D10F8F5E1D92523300D9F6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MWL_侧滑抽屉/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maweilong.MWL-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D10F8F5F1D92523300D9F6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MWL_侧滑抽屉/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maweilong.MWL-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D10F8F611D92523300D9F6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MWL_侧滑抽屉Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maweilong.MWL-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWL_侧滑抽屉.app/MWL_侧滑抽屉";
+			};
+			name = Debug;
+		};
+		D10F8F621D92523300D9F6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MWL_侧滑抽屉Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maweilong.MWL-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWL_侧滑抽屉.app/MWL_侧滑抽屉";
+			};
+			name = Release;
+		};
+		D10F8F641D92523300D9F6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MWL_侧滑抽屉UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maweilong.MWL-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MWL_侧滑抽屉";
+			};
+			name = Debug;
+		};
+		D10F8F651D92523300D9F6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MWL_侧滑抽屉UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maweilong.MWL-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MWL_侧滑抽屉";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10F8F311D92523300D9F6DA /* Build configuration list for PBXProject "MWL_侧滑抽屉" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10F8F5B1D92523300D9F6DA /* Debug */,
+				D10F8F5C1D92523300D9F6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10F8F5D1D92523300D9F6DA /* Build configuration list for PBXNativeTarget "MWL_侧滑抽屉" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10F8F5E1D92523300D9F6DA /* Debug */,
+				D10F8F5F1D92523300D9F6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D10F8F601D92523300D9F6DA /* Build configuration list for PBXNativeTarget "MWL_侧滑抽屉Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10F8F611D92523300D9F6DA /* Debug */,
+				D10F8F621D92523300D9F6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D10F8F631D92523300D9F6DA /* Build configuration list for PBXNativeTarget "MWL_侧滑抽屉UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10F8F641D92523300D9F6DA /* Debug */,
+				D10F8F651D92523300D9F6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10F8F2E1D92523300D9F6DA /* Project object */;
+}
